@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Metodos {
+public class Metodos1 {
 
     public static double validarDouble (Scanner scan){
         boolean validar = false;

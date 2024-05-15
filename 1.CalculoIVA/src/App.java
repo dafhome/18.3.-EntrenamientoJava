@@ -9,9 +9,9 @@ public class App {
         System.out.print("Articulo: ");
         String articulo = scan.nextLine();
         System.out.print("Precio: ");
-        double precio = Metodos.validarDouble(scan);
+        double precio = Metodos1.validarDouble(scan);
         System.out.print("Tipo de IVA. Indica 0, 4, 10 o 21: ");
-        int tipoIVA = Metodos.validarTipoIVA(scan);
+        int tipoIVA = Metodos1.validarTipoIVA(scan);
         double IVA =(double) Math.round(CalculoIVA.calculoIVA(precio, tipoIVA)*100.0)/100.0;
         double precioIVA =(double) Math.round(CalculoIVA.sumarIVA(precio, tipoIVA)*100.0)/100.0;
 

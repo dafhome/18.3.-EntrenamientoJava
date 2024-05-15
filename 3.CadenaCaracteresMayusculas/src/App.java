@@ -10,7 +10,7 @@ public class App {
 
         System.out.println();
         System.out.println("Tu frase corregida es:");
-        System.out.println(PrimeraMayuscula.primeraMayuscula(frase));
+        Metodos.printLentamente(PrimeraMayuscula.primeraMayuscula(frase), 1, 1);
 
         scan.close();
     }
